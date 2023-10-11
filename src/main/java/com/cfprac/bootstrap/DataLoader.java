@@ -35,7 +35,8 @@ public class DataLoader implements CommandLineRunner {
         Author author1 = new Author();
         author1.setName("James");
         author1.setDob(LocalDate.of(1982,1,2));
-        author1.setGender(Gender.MALE);
+        author1.setGender(Gender.M);
+        author1.setAge(41);
 
         Publisher publisher1 = new Publisher();
         publisher1.setName("Oxford Inc.");
@@ -63,7 +64,8 @@ public class DataLoader implements CommandLineRunner {
         Author author2 = new Author();
         author2.setName("Fred");
         author2.setDob(LocalDate.of(1974, 9,22));
-        author2.setGender(Gender.MALE);
+        author2.setGender(Gender.M);
+        author2.setAge(49);
 
         Publisher publisher2 = new Publisher();
         publisher2.setName("Orielly Inc.");
